@@ -1,9 +1,8 @@
 -- A script that creates a table users for any database
 
-CREATE TABLE IF NOT EXIST users (
-    id INT NOT NULL AUTO_INCREMENT,
+CREATE TABLE IF NOT EXISTs users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
     email VARCHAR(255) NOT NULL UNIQUE,
-    name VARCHAR(255),
-    PRIMARY KEY (id)
+    name VARCHAR(255)
 );
  
