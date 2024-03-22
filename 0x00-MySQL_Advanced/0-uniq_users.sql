@@ -1,4 +1,4 @@
---A script that creates a table users for any database
+-- A script that creates a table users for any database
 
 CREATE TABLE IF NOT EXIST users (
     id INT NOT NULL AUTO_INCREMENT,
@@ -6,3 +6,4 @@ CREATE TABLE IF NOT EXIST users (
     name VARCHAR(255),
     PRIMARY KEY (id)
 );
+ 
