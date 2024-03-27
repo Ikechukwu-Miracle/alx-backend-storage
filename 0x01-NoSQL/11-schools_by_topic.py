@@ -13,5 +13,4 @@ def schools_by_topic(mongo_collection, topic):
     Returns:
         A list of schools having the specified topic.
     """
-    schools = mongo_collection.find({"topics": topic})
-    return list(schools)
+    return mongo_collection.find({"topics": topic})
